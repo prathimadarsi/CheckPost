@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Check_Post</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="title_activity_log">Log</string>
+    <string name="title_activity_lognext">Lognext</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_userhome">Userhome</string>
+    <string name="title_activity_vreg">Vreg</string>
+    <string name="title_activity_fit">Fit</string>
+    <string name="title_activity_noc">Noc</string>
+    <string name="title_activity_lic">Lic</string>
+    <string name="title_activity_permits">Permits</string>
+
+</resources>

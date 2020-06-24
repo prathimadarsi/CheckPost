@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Lic"
+    android:background="@drawable/tp1" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="UserID"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="License Credentials"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Enter License number" 
+        android:textColorHint="#FFFFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="31dp"
+        android:text="License Number :"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="21dp"
+        android:text="Address:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="72dp"
+        android:text="License Validity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="19dp"
+        android:text="From :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/editText3"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="date"
+        android:textColorHint="#FFFFFFFF" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/editText2"
+        android:ems="10"
+        android:hint="Enter Postal Address"
+        android:inputType="textPostalAddress"
+        android:textColorHint="#ffffffff" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:textColorHint="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText5"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignRight="@+id/textView6"
+        android:text="To :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/editText3"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

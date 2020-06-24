@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="re">
+     <item >VEHICLE DETAILS</item>
+     <item >LICENSE DETAILS</item>
+     <item >NOC DETAILS</item>
+     <item >STAGE CARRIAGE DETAILS</item>
+     <item >CONTRACT CARRIAGE DETAILS</item>
+     <item >GOODS CARRIAGE DETAILS</item>
+     </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Noc" >
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentRight="true"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginRight="37dp"
+        android1:layout_marginTop="16dp"
+        android1:orientation="horizontal" >
+
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Issued" 
+            android:checked="true"/>
+
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Not Issued" />
+    </RadioGroup>
+
+    <TextView
+        android1:id="@+id/textView4"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/textView1"
+        android1:layout_below="@+id/radioGroup1"
+        android1:layout_marginTop="33dp"
+        android1:text="Certificate of Fitness"
+        android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/radioGroup1"
+        android1:layout_below="@+id/textView4"
+        android1:layout_marginTop="24dp"
+         android:orientation="horizontal"  >
+
+       
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Issued"
+            android:checked="true" />
+
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="Not Issued" />
+    </RadioGroup>
+
+    <Button
+        android1:id="@+id/button1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginBottom="56dp"
+        android:background="#90909090"
+        android1:text="Submit" />
+
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android1:layout_marginTop="21dp"
+        android1:text="User ID"
+        android1:textStyle="bold" />
+
+    <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignLeft="@+id/textView2"
+        android1:layout_below="@+id/textView3"
+        android1:layout_marginTop="26dp"
+        android1:text="Issue of NOC"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textSize="25sp" />
+
+    <TextView
+        android1:id="@+id/textView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/textView2"
+        android1:layout_alignBottom="@+id/textView2"
+        android1:layout_alignLeft="@+id/radioGroup1"
+        android1:text="TextView"
+        android1:textSize="21sp"
+        android1:textStyle="bold" />
+
+</RelativeLayout>
