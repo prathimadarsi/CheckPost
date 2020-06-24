@@ -1,0 +1,2 @@
+# CheckPost
+Developed an Android app called check_post. The app works so, Initially every vehicle owner registers into the application's database (used DDMS for storing database) and gives all the required details of his/her vehicle like carriage permits, registration certificate validations etc., these are then sent to regional officers and on approval by the officer they are navigated to the check post officer and the situation where the vehicle need to cross a certain check post, decision is taken according to the documents present in the database.
